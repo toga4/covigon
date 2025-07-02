@@ -1,0 +1,9 @@
+mode: atomic
+m/p/func2.go:3.27,4.7 1 2
+m/p/func2.go:4.7,6.3 1 1
+m/p/func2.go:7.2,7.22 1 1
+m/func1.go:3.21,5.2 1 1
+m/func3.go:3.27,4.7 1 1
+m/func3.go:4.7,6.3 1 0
+m/func3.go:9.2,9.22 1 1
+m/func4.go:3.27,5.2 1 0

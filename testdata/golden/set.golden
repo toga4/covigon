@@ -1,0 +1,40 @@
+
+[m/func1.go]
+   1    package m
+   2    
+   3 +  func Func1() string {
+   4 +      return "Func1"
+   5 +  }
+   6    
+
+[m/func3.go]
+   1    package m
+   2    
+   3 +  func Func3(b bool) string {
+   4 +-     if b {
+   5  -         return "Func3 true"
+   6  -     }
+   7    
+   8        // comment
+   9 +      return "Func3 false"
+  10    }
+  11    
+
+[m/func4.go]
+   1    package m
+   2    
+   3  - func Func4(b bool) string {
+   4  -     return "Func4"
+   5  - }
+   6    
+
+[m/p/func2.go]
+   1    package m
+   2    
+   3 +  func Func2(b bool) string {
+   4 +      if b {
+   5 +          return "Func2 true"
+   6 +      }
+   7 +      return "Func2 false"
+   8    }
+   9    
