@@ -5,7 +5,7 @@ go 1.26.0
 require (
 	github.com/fatih/color v1.19.0
 	github.com/sergi/go-diff v1.4.0
-	golang.org/x/tools v0.50.0
+	golang.org/x/tools v0.51.0
 )
 
 require (
